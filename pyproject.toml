@@ -24,7 +24,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Jayanng/pipecat-gmicloud-llm"
-Changelog = "https://github.com/Jayanng/pipecat-gmicloud-llm/blob/main/CHANGELOG.md"
+Changelog = "https://github.com/Jayanng/pipecat-gmicloud-llm/blob/Master/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["src"]
