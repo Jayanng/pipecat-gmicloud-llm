@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipecat-gmicloud-llm"
+version = "0.1.0"
+description = "Pipecat LLM service for GMI Cloud's OpenAI-compatible inference API (GLM, DeepSeek, Gemini, Qwen and more)."
+readme = "README.md"
+license = "BSD-2-Clause"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "Jayanng" }]
+keywords = ["pipecat", "llm", "gmi-cloud", "glm", "deepseek", "gemini"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+
+dependencies = [
+    "pipecat-ai>=1.17",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jayanng/pipecat-gmicloud-llm"
+Changelog = "https://github.com/Jayanng/pipecat-gmicloud-llm/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
