@@ -20,7 +20,8 @@ token counts and costs.
 ## Models
 
 Any model id from GMI Cloud's `/v1/models` list works through the
-`model` setting. The list returned 71 models on 2026-11-26, including:
+`model` setting. The list returned 71 models on 2026-11-26. The full
+list is in [MODELS.md](MODELS.md). Examples:
 
 | Model id | What it is |
 |---|---|
